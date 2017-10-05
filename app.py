@@ -6,7 +6,7 @@
 import re
 from random import choice
 import random
-o = open('output','w')
+o = open('output','w')                   #открываем фаил для записи измененных строк
 pattern = re.compile('.*\n')
 data = open('crupto.txt').read()
 
